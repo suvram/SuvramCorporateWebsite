@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2080192-C86C-4A7A-A21E-3733CA70C731}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GlobalMindzDataAccess</RootNamespace>
+    <AssemblyName>GlobalMindzDataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Micro.DataAccessLayer">
+      <HintPath>..\GlobalMindzAssemblies\Micro.DataAccessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Micro.Objects">
+      <HintPath>..\GlobalMindzAssemblies\Micro.Objects.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADMN_MST_Companies.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADMN_MST_Countries.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADMN_MST_Districts.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADMN_MST_States.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADMN_MST_Users.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADMN_MST_UserSettingKeys.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADMN_MST_UserSettings.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADMN_MST_Users_Officewise.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="ModelGlobalMindz.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelGlobalMindz.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelGlobalMindz.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelGlobalMindz.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelGlobalMindz.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="pADM_Users_SelectAllByCompanyID_Result.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pADM_Users_SelectByLoginCredentials_Result.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pADM_Users_SelectByLoginName_Result.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pADM_Users_SelectByUserID_Result.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pADM_Users_SelectByUserReferenceID_Result.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pADM_Users_SelectDetailsAll_Result.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pADM_Users_SelectDetailsByLoginName_Result.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pADM_Users_SelectOfficeDetails_Result.cs">
+      <DependentUpon>ModelGlobalMindz.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserDataAccess.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="ModelGlobalMindz.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelGlobalMindz.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ModelGlobalMindz.edmx.diagram">
+      <DependentUpon>ModelGlobalMindz.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <Content Include="Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModelGlobalMindz.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelGlobalMindz.edmx</DependentUpon>
+      <LastGenOutput>ModelGlobalMindz.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ModelGlobalMindz.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelGlobalMindz.edmx</DependentUpon>
+      <LastGenOutput>ModelGlobalMindz.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GlobalMindzModel\GlobalMindzModel.csproj">
+      <Project>{a0ac4704-32f5-46bb-bdc7-ea894183a662}</Project>
+      <Name>GlobalMindzModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

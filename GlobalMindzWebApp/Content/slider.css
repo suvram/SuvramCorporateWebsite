@@ -1,0 +1,146 @@
+﻿/*@import url("reset.css") screen;*/
+@import url("animation.css") screen;
+
+/* CONTENT SLIDER */
+#content-slider {
+    width: 100%;
+    min-height: 200px;
+    margin: 10px auto auto 0;
+    padding-right: -15px;
+    padding-left: -15px;
+
+}
+
+/* SLIDER */
+#slider {
+    background: #000;
+    /*  border:5px solid #eaeaea;
+	box-shadow:1px 1px 5px rgba(0,0,0,0.7);*/
+    height: 400px;
+    width: 100%;
+    /*margin: 2px -15px 0px -15px;*/
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    border-top: none;
+}
+
+#mask {
+    /*overflow:hidden;
+	height:400px;*/
+}
+
+#slider ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+    margin-left: -30px;
+    margin-right: -30px;
+    
+}
+
+#slider li {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: -425px;
+    list-style: none;
+    
+    
+}
+
+    #slider li.firstanimation {
+        -moz-animation: cycle 25s linear infinite;
+        -webkit-animation: cycle 25s linear infinite;
+    }
+
+    #slider li.secondanimation {
+        -moz-animation: cycletwo 25s linear infinite;
+        -webkit-animation: cycletwo 25s linear infinite;
+    }
+
+    #slider li.thirdanimation {
+        -moz-animation: cyclethree 25s linear infinite;
+        -webkit-animation: cyclethree 25s linear infinite;
+    }
+
+    #slider li.fourthanimation {
+        -moz-animation: cyclefour 25s linear infinite;
+        -webkit-animation: cyclefour 25s linear infinite;
+    }
+
+    #slider li.fifthanimation {
+        -moz-animation: cyclefive 25s linear infinite;
+        -webkit-animation: cyclefive 25s linear infinite;
+    }
+
+#slider .tooltip {
+    bottom: 20px;
+    left: 5%;
+    position: absolute;
+    display: block;
+    width: 98%;
+    text-align: center;
+}
+
+    #slider .tooltip h1 {
+        color: #fff;
+        font-family: 'Marvel', sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 60px;
+        padding: 0px;
+    }
+/*
+#slider .tooltip {
+	background:rgba(0,0,0,0.7);
+	width:300px;
+	height:60px;
+	position:fixed;
+	bottom:0px;
+	left:10px;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;  
+    border: solid 1px red;
+}
+#slider .tooltip h1 {
+	color:#fff;
+	font-size:24px;
+	font-weight:300;
+	line-height:60px;
+	padding:0px;
+}
+#slider li#first:hover .tooltip, 
+#slider li#second:hover .tooltip, 
+#slider li#third:hover .tooltip, 
+#slider li#fourth:hover .tooltip, 
+#slider li#fifth:hover .tooltip {
+	left:0px;
+}*/
+
+
+#slider:hover li,
+#slider:hover .progress-bar {
+    -moz-animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+}
+
+/* PROGRESS BAR */
+.progress-bar {
+    position: relative;
+    top: -4px;
+    width: 100%;
+    height: 5px;
+	padding: 0px -15px 0px -15px;
+    background: #000;
+    -moz-animation: fullexpand 25s ease-out infinite;
+    -webkit-animation: fullexpand 25s ease-out infinite;
+}
+
+#slider li a img {
+    width: 102%;
+    height: 100%;
+    text-align: center;
+     
+}

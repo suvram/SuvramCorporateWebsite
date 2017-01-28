@@ -1,0 +1,144 @@
+﻿@import 'slider.css';
+@import 'font-awesome.css';
+/*@import 'font-awesome.min.css';*/
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background: #fff;
+    color: #004400;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #FFF;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    background: #fff;
+    background-image: url("../../../Images/bg_11.jpg");
+    background-repeat: no-repeat, repeat-x;
+    border-bottom: solid 1px #fff;
+}
+
+.navbar-brand,
+div.navbar.navbar-inverse > div > div.navbar-header > a {
+	color: #663300;
+	text-transform: capitalize;
+	font-weight: normal;
+}
+
+div.navbar.navbar-inverse > div > div.navbar-collapse.in > ul > li > a,
+div.navbar.navbar-inverse > div > div.navbar-collapse.collapse > ul > li > a {
+    color: #007F3E;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: green;
+    background-color: green;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #FFF200;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #663300;
+    text-decoration: none;
+    background-color: #FFF200;
+    font-weight: bold;
+}
+
+.nav .caret {
+    border-top-color: #007F3E;
+    border-bottom-color: #007F3E;
+}
+
+.btn-default {
+    color: #FFF400;
+    background-color: #004400;
+    border-color: #00B04C;
+}
+
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+	max-width: 280px;
+}
+
+h4 {
+	margin-top: 20px;
+	margin-bottom: 2px;
+	background-image: url("../../../Images/hsep.png");
+	background-repeat: no-repeat;
+	background-position: -24px 17px;
+}
+
+p
+{
+	text-align: justify;
+}
+
+footer {
+	text-align: center;
+	font-size: small;
+}
+
+
+
+.DefaultPageUL {
+    display: block;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.DefaultPageULMission {
+    display: block;
+    margin: 0;
+    list-style-type: disc;
+    padding: 0;
+}
+
+.DefaultPageULMission li
+{
+    margin: 14px 0px;
+}
+
+/********************************************/
+
+@media only screen and (max-device-width: 480px) {
+
+	.navbar-brand,
+	div.navbar.navbar-inverse > div > div.navbar-header > a {
+		color: #663300; 
+	}
+
+	.body-content {
+	}
+
+	#content-slider {
+		min-height: 150px;
+	}
+
+	/* SLIDER */
+	#slider {
+		height: 150px;
+	}
+
+		#slider li {
+			height: 150px;
+		}
+}
+
+

@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="GlobalMindzWebApp.SiteMaster" %>
+
+<%@ Register Src="UserControls/WebUserControlMenu.ascx" TagName="WebUserControlMenu" TagPrefix="uc1" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+	<title>Suvram Solutions - Web | Software | Education | Bio-Tech - BD Pur (Sasan), Ganjam, Odisha - 761120 | Saheed Nagar, Bhubaneswar, Odisha, India - 751007</title>
+	<link rel="shortcut icon" href="_images_/favicon.ico" type="image/x-icon" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="keywords" content="Suvram Solutions, Suvram Solutions Technologies Software Solutions,Suvram India,Suvram UAE,SMB IT Service Provider,Small &amp; Medium Business IT Services,Business consulting services,IT services,IT consulting services,information technology consulting,IT outsourcing,application development services,business software development,global it services,enterprise IT solutions,software product development,Solution Accelerators,it Solutions,Outsourcing Service Provider,business solutions and professional services,System Integration,Managed Services, Banking and Finance,Enterprise Products,it Consulting,Product Engineering Solutions, software services outsourcing,software development company,retail and distribution solutions,automotive engineering,telecom, utilities billing,work management,banking solution,finance,insurance solutions,Logistics solutions,Transportation solutions,healthcare services,media and entertainment,Offshore Software Developers,Outsourcing Custom Software Services,Third Party Software Developers,ISV, SaaS,Quality Analysis,QA,Testing,Programming, Porting,Maintenance,Microsoft Windows,Mobile, Wireless,Macintosh,Web,Enterprise,Adobe,Apple, IBM,Macromedia,Palm,Sun,Quark,Xbox,4D,FileMaker, Lasso,Servoy,AIX,AS/400,Linux,Mac,OSX,Palm, PocketPC,Solaris,Xbox,Publishing,Games, Healthcare,Transportation,Logistics,Company,IT services outsourcing India, Dubai, Abu Dhabi, Sharjah, UAE" />
+	<meta name="description" content="Suvram Solutions Solutions is amongst the leading providers of Software &amp; IT services encompassing development and delivery of complex projects for enhancing business growth of its customers." />
+	<meta name="keyphrase" content="Suvram Solutions Solutions, Suvram Solutions India,Suvram Solutions,SMB IT Service Provider,Small &amp; Medium Business IT Services,Business consulting services,IT services,IT consulting services,information technology consulting,IT outsourcing,application development services,business software development,global it services,enterprise IT solutions,software product development,Solution Accelerators,it Solutions,Outsourcing Service Provider,business solutions and professional services,System Integration,Managed Services, Banking and Finance,Enterprise Products,it Consulting,Product Engineering Solutions, software services outsourcing,software development company,retail and distribution solutions,automotive engineering,telecom, utilities billing,work management,banking solution,finance,insurance solutions,Logistics solutions,Transportation solutions,healthcare services,media and entertainment,Offshore Software Developers,Outsourcing Custom Software Services,Third Party Software Developers,ISV, SaaS,Quality Analysis,QA,Testing,Programming, Porting,Maintenance,Microsoft Windows,Mobile, Wireless,Macintosh,Web,Enterprise,Adobe,Apple, IBM,Macromedia,Palm,Sun,Quark,Xbox,4D,FileMaker, Lasso,Servoy,AIX,AS/400,Linux,Mac,OSX,Palm, PocketPC,Solaris,Xbox,Publishing,Games, Healthcare,Transportation,Logistics,Company,IT services outsourcing India" />
+	<meta name="abstract" content="Offshore and outsourcing software development services to software product companies like ISV, Saas and IT consulting companies are provided by Suvram Solutions Solutions from India.Its custom solutions also cater to software maintenance, migration,qa and testing services." />
+	<meta name="classification" content="Companies,Programming,Porting,Maintenance,Microsoft Windows,Mobile,Wireless,Macintosh,Web,Enterprise,Adobe,Apple,IBM,Macromedia,Palm,Sun,Quark,Xbox,4D,FileMaker,Lasso,Servoy,AIX,AS/400,Linux,Mac,OSX,Palm,PocketPC,Solaris,Xbox,Publishing,Games,Healthcare,Transportation,Logistics,Company" />
+
+	<asp:PlaceHolder runat="server">
+		<%: Scripts.Render("~/bundles/modernizr") %>
+	</asp:PlaceHolder>
+
+	<webopt:BundleReference runat="server" Path="~/Content/css" />
+	<link href="Content/Site.css" rel="stylesheet" />
+
+
+	<link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+	<form runat="server" id="form1">
+		<asp:ScriptManager runat="server">
+			<Scripts>
+				<%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+				<%--Framework Scripts--%>
+				<asp:ScriptReference Name="MsAjaxBundle" />
+				<asp:ScriptReference Name="jquery" />
+				<asp:ScriptReference Name="bootstrap" />
+				<asp:ScriptReference Name="respond" />
+				<asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+				<asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+				<asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+				<asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+				<asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+				<asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+				<asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+				<asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+				<asp:ScriptReference Name="WebFormsBundle" />
+				<%--Site Scripts--%>
+				<asp:ScriptReference Path="~/Scripts/global_minds.js" />
+			</Scripts>
+
+		</asp:ScriptManager>
+		<uc1:WebUserControlMenu ID="WebUserControlMenu1" runat="server" />
+
+		<div class="container body-content">
+			<asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+			<hr />
+			<footer>
+				Copyright &copy; 2015 - <%: DateTime.Now.Year %>  Suvram Solutions  | v1.0.0.0 
+			</footer>
+		</div>
+
+	</form>
+</body>
+</html>

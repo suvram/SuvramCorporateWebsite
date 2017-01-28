@@ -1,0 +1,32 @@
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\bin\Release\GlobalMindzDataAccess.dll.config
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\bin\Release\GlobalMindzDataAccess.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\bin\Release\GlobalMindzDataAccess.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\bin\Release\EntityFramework.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\bin\Release\EntityFramework.SqlServer.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\bin\Release\GlobalMindzModel.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\bin\Release\Micro.DataAccessLayer.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\bin\Release\Micro.Objects.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\bin\Release\Micro.Commons.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\bin\Release\Micro.Security.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\bin\Release\GlobalMindzModel.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\bin\Release\EntityFramework.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\bin\Release\EntityFramework.SqlServer.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\obj\Release\GlobalMindzDataAccess.csprojResolveAssemblyReference.cache
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\obj\Release\GlobalMindzDataAccess.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzDataAccess\obj\Release\GlobalMindzDataAccess.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\bin\Release\GlobalMindzDataAccess.dll.config
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\bin\Release\GlobalMindzDataAccess.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\bin\Release\GlobalMindzDataAccess.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\bin\Release\EntityFramework.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\bin\Release\EntityFramework.SqlServer.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\bin\Release\GlobalMindzModel.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\bin\Release\Micro.DataAccessLayer.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\bin\Release\Micro.Objects.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\bin\Release\Micro.Commons.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\bin\Release\Micro.Security.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\bin\Release\GlobalMindzModel.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\bin\Release\EntityFramework.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\bin\Release\EntityFramework.SqlServer.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\obj\Release\GlobalMindzDataAccess.csprojResolveAssemblyReference.cache
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\obj\Release\GlobalMindzDataAccess.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzDataAccess\obj\Release\GlobalMindzDataAccess.pdb

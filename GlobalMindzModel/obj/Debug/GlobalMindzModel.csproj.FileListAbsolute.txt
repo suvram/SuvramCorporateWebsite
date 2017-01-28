@@ -1,0 +1,18 @@
+D:\Kishor\GlobalMindzWebApp\GlobalMindzModel\bin\Debug\GlobalMindzModel.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzModel\bin\Debug\GlobalMindzModel.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzModel\obj\Debug\GlobalMindzModel.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzModel\obj\Debug\GlobalMindzModel.pdb
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzModel\bin\Debug\GlobalMindzModel.dll
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzModel\bin\Debug\GlobalMindzModel.pdb
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzModel\obj\Debug\GlobalMindzModel.dll
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzModel\obj\Debug\GlobalMindzModel.pdb
+F:\GlobalMindzWebApp - Suvram\GlobalMindzModel\bin\Debug\GlobalMindzModel.dll
+F:\GlobalMindzWebApp - Suvram\GlobalMindzModel\bin\Debug\GlobalMindzModel.pdb
+F:\GlobalMindzWebApp - Suvram\GlobalMindzModel\obj\Debug\GlobalMindzModel.csprojResolveAssemblyReference.cache
+F:\GlobalMindzWebApp - Suvram\GlobalMindzModel\obj\Debug\GlobalMindzModel.dll
+F:\GlobalMindzWebApp - Suvram\GlobalMindzModel\obj\Debug\GlobalMindzModel.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzModel\bin\Debug\GlobalMindzModel.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzModel\bin\Debug\GlobalMindzModel.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzModel\obj\Debug\GlobalMindzModel.csprojResolveAssemblyReference.cache
+E:\GlobalMindzWebApp - Suvram\GlobalMindzModel\obj\Debug\GlobalMindzModel.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzModel\obj\Debug\GlobalMindzModel.pdb

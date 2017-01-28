@@ -1,0 +1,60 @@
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzBusinessLayer.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzBusinessLayer.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzDataAccess.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzModel.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Debug\Micro.DataAccessLayer.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Debug\Micro.Objects.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Debug\EntityFramework.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Debug\Micro.Commons.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Debug\Micro.Security.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzDataAccess.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzModel.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Debug\EntityFramework.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\obj\Debug\GlobalMindzBusinessLayer.csprojResolveAssemblyReference.cache
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\obj\Debug\GlobalMindzBusinessLayer.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\obj\Debug\GlobalMindzBusinessLayer.pdb
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzBusinessLayer.dll
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzBusinessLayer.pdb
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzDataAccess.dll
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzModel.dll
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\Micro.DataAccessLayer.dll
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\Micro.Objects.dll
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\EntityFramework.dll
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\Micro.Commons.dll
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\Micro.Security.dll
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzDataAccess.pdb
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzModel.pdb
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\EntityFramework.xml
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\obj\Debug\GlobalMindzBusinessLayer.csprojResolveAssemblyReference.cache
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\obj\Debug\GlobalMindzBusinessLayer.dll
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\obj\Debug\GlobalMindzBusinessLayer.pdb
+F:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzBusinessLayer.dll
+F:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzBusinessLayer.pdb
+F:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzDataAccess.dll
+F:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzModel.dll
+F:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\Micro.DataAccessLayer.dll
+F:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\Micro.Objects.dll
+F:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\EntityFramework.dll
+F:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\Micro.Commons.dll
+F:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\Micro.Security.dll
+F:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzDataAccess.pdb
+F:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzModel.pdb
+F:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\EntityFramework.xml
+F:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\obj\Debug\GlobalMindzBusinessLayer.csprojResolveAssemblyReference.cache
+F:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\obj\Debug\GlobalMindzBusinessLayer.dll
+F:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\obj\Debug\GlobalMindzBusinessLayer.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzBusinessLayer.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzBusinessLayer.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzDataAccess.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzModel.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\Micro.DataAccessLayer.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\Micro.Objects.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\EntityFramework.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\Micro.Commons.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\Micro.Security.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzDataAccess.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\GlobalMindzModel.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Debug\EntityFramework.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\obj\Debug\GlobalMindzBusinessLayer.csprojResolveAssemblyReference.cache
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\obj\Debug\GlobalMindzBusinessLayer.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\obj\Debug\GlobalMindzBusinessLayer.pdb

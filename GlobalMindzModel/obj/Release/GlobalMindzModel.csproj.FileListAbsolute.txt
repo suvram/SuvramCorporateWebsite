@@ -1,0 +1,12 @@
+D:\Kishor\GlobalMindzWebApp\GlobalMindzModel\bin\Release\GlobalMindzModel.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzModel\bin\Release\GlobalMindzModel.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzModel\bin\Release\Micro.Objects.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzModel\obj\Release\GlobalMindzModel.csprojResolveAssemblyReference.cache
+D:\Kishor\GlobalMindzWebApp\GlobalMindzModel\obj\Release\GlobalMindzModel.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzModel\obj\Release\GlobalMindzModel.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzModel\bin\Release\GlobalMindzModel.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzModel\bin\Release\GlobalMindzModel.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzModel\bin\Release\Micro.Objects.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzModel\obj\Release\GlobalMindzModel.csprojResolveAssemblyReference.cache
+E:\GlobalMindzWebApp - Suvram\GlobalMindzModel\obj\Release\GlobalMindzModel.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzModel\obj\Release\GlobalMindzModel.pdb

@@ -1,0 +1,20 @@
+D:\Kishor\GlobalMindzWebApp\GlobalMindzReportsApp\bin\Debug\GlobalMindzReportsApp.exe.config
+D:\Kishor\GlobalMindzWebApp\GlobalMindzReportsApp\bin\Debug\GlobalMindzReportsApp.exe
+D:\Kishor\GlobalMindzWebApp\GlobalMindzReportsApp\bin\Debug\GlobalMindzReportsApp.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzReportsApp\obj\Debug\GlobalMindzReportsApp.csprojResolveAssemblyReference.cache
+D:\Kishor\GlobalMindzWebApp\GlobalMindzReportsApp\obj\Debug\GlobalMindzReportsApp.Form1.resources
+D:\Kishor\GlobalMindzWebApp\GlobalMindzReportsApp\obj\Debug\GlobalMindzReportsApp.Properties.Resources.resources
+D:\Kishor\GlobalMindzWebApp\GlobalMindzReportsApp\obj\Debug\GlobalMindzReportsApp.csproj.GenerateResource.Cache
+D:\Kishor\GlobalMindzWebApp\GlobalMindzReportsApp\obj\Debug\RdlCompile.cache
+D:\Kishor\GlobalMindzWebApp\GlobalMindzReportsApp\obj\Debug\RdlCompile.compiled
+D:\Kishor\GlobalMindzWebApp\GlobalMindzReportsApp\obj\Debug\GlobalMindzReportsApp.exe
+D:\Kishor\GlobalMindzWebApp\GlobalMindzReportsApp\obj\Debug\GlobalMindzReportsApp.pdb
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzReportsApp\bin\Debug\GlobalMindzReportsApp.exe.config
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzReportsApp\bin\Debug\GlobalMindzReportsApp.exe
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzReportsApp\bin\Debug\GlobalMindzReportsApp.pdb
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzReportsApp\obj\Debug\GlobalMindzReportsApp.csprojResolveAssemblyReference.cache
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzReportsApp\obj\Debug\GlobalMindzReportsApp.Form1.resources
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzReportsApp\obj\Debug\GlobalMindzReportsApp.Properties.Resources.resources
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzReportsApp\obj\Debug\GlobalMindzReportsApp.csproj.GenerateResource.Cache
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzReportsApp\obj\Debug\GlobalMindzReportsApp.exe
+D:\Kishor\GlobalMindzWebApp - Suvram\GlobalMindzReportsApp\obj\Debug\GlobalMindzReportsApp.pdb

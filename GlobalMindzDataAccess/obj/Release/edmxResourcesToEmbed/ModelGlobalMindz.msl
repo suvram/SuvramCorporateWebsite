@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GlobalMindzModelStoreContainer" CdmEntityContainer="GlobalMindzEntities">
+    <EntitySetMapping Name="ADMN_MST_Countries">
+      <EntityTypeMapping TypeName="GlobalMindzModel.ADMN_MST_Countries">
+        <MappingFragment StoreEntitySet="ADMN_MST_Countries">
+          <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+          <ScalarProperty Name="CountryCode" ColumnName="CountryCode" />
+          <ScalarProperty Name="CountryName" ColumnName="CountryName" />
+          <ScalarProperty Name="CapitalName" ColumnName="CapitalName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="DateModified" ColumnName="DateModified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="VC_FIELD1" ColumnName="VC_FIELD1" />
+          <ScalarProperty Name="VC_FIELD2" ColumnName="VC_FIELD2" />
+          <ScalarProperty Name="NU_FIELD1" ColumnName="NU_FIELD1" />
+          <ScalarProperty Name="NU_FIELD2" ColumnName="NU_FIELD2" />
+          <ScalarProperty Name="DT_FIELD1" ColumnName="DT_FIELD1" />
+          <ScalarProperty Name="DT_FIELD2" ColumnName="DT_FIELD2" />
+          <ScalarProperty Name="CH_FIELD1" ColumnName="CH_FIELD1" />
+          <ScalarProperty Name="CH_FIELD2" ColumnName="CH_FIELD2" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ADMN_MST_Districts">
+      <EntityTypeMapping TypeName="GlobalMindzModel.ADMN_MST_Districts">
+        <MappingFragment StoreEntitySet="ADMN_MST_Districts">
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="StateID" ColumnName="StateID" />
+          <ScalarProperty Name="HeadQuarterName" ColumnName="HeadQuarterName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="DateModified" ColumnName="DateModified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="VC_FIELD1" ColumnName="VC_FIELD1" />
+          <ScalarProperty Name="VC_FIELD2" ColumnName="VC_FIELD2" />
+          <ScalarProperty Name="NU_FIELD1" ColumnName="NU_FIELD1" />
+          <ScalarProperty Name="NU_FIELD2" ColumnName="NU_FIELD2" />
+          <ScalarProperty Name="DT_FIELD1" ColumnName="DT_FIELD1" />
+          <ScalarProperty Name="DT_FIELD2" ColumnName="DT_FIELD2" />
+          <ScalarProperty Name="CH_FIELD1" ColumnName="CH_FIELD1" />
+          <ScalarProperty Name="CH_FIELD2" ColumnName="CH_FIELD2" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ADMN_MST_States">
+      <EntityTypeMapping TypeName="GlobalMindzModel.ADMN_MST_States">
+        <MappingFragment StoreEntitySet="ADMN_MST_States">
+          <ScalarProperty Name="StateID" ColumnName="StateID" />
+          <ScalarProperty Name="StateName" ColumnName="StateName" />
+          <ScalarProperty Name="StateCapitalName" ColumnName="StateCapitalName" />
+          <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="DateModified" ColumnName="DateModified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ADMN_MST_Users">
+      <EntityTypeMapping TypeName="GlobalMindzModel.ADMN_MST_Users">
+        <MappingFragment StoreEntitySet="ADMN_MST_Users">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="UserReferenceID" ColumnName="UserReferenceID" />
+          <ScalarProperty Name="SecretQuestion" ColumnName="SecretQuestion" />
+          <ScalarProperty Name="SecretQuestionAnswer" ColumnName="SecretQuestionAnswer" />
+          <ScalarProperty Name="IsPasswordChangeDue" ColumnName="IsPasswordChangeDue" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="DateModified" ColumnName="DateModified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="VC_FIELD1" ColumnName="VC_FIELD1" />
+          <ScalarProperty Name="VC_FIELD2" ColumnName="VC_FIELD2" />
+          <ScalarProperty Name="NU_FIELD1" ColumnName="NU_FIELD1" />
+          <ScalarProperty Name="NU_FIELD2" ColumnName="NU_FIELD2" />
+          <ScalarProperty Name="DT_FIELD1" ColumnName="DT_FIELD1" />
+          <ScalarProperty Name="DT_FIELD2" ColumnName="DT_FIELD2" />
+          <ScalarProperty Name="CH_FIELD1" ColumnName="CH_FIELD1" />
+          <ScalarProperty Name="CH_FIELD2" ColumnName="CH_FIELD2" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyCode" ColumnName="CompanyCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ADMN_MST_Companies">
+      <EntityTypeMapping TypeName="GlobalMindzModel.ADMN_MST_Companies">
+        <MappingFragment StoreEntitySet="ADMN_MST_Companies">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyAliasName" ColumnName="CompanyAliasName" />
+          <ScalarProperty Name="CompanyCode" ColumnName="CompanyCode" />
+          <ScalarProperty Name="CompanyMailingName" ColumnName="CompanyMailingName" />
+          <ScalarProperty Name="CompanyRegisteredOfficeID" ColumnName="CompanyRegisteredOfficeID" />
+          <ScalarProperty Name="CompanyHeadOfficeID" ColumnName="CompanyHeadOfficeID" />
+          <ScalarProperty Name="CompanyRegistrationNumber" ColumnName="CompanyRegistrationNumber" />
+          <ScalarProperty Name="CompanyEPFRegistrationNumber" ColumnName="CompanyEPFRegistrationNumber" />
+          <ScalarProperty Name="CompanyLogoBigSize" ColumnName="CompanyLogoBigSize" />
+          <ScalarProperty Name="CompanyLogoBigType" ColumnName="CompanyLogoBigType" />
+          <ScalarProperty Name="CompanyLogoMediumSize" ColumnName="CompanyLogoMediumSize" />
+          <ScalarProperty Name="CompanyLogoMediumType" ColumnName="CompanyLogoMediumType" />
+          <ScalarProperty Name="CompanyLogoSmallSize" ColumnName="CompanyLogoSmallSize" />
+          <ScalarProperty Name="CompanyLogoSmallType" ColumnName="CompanyLogoSmallType" />
+          <ScalarProperty Name="CompanyLoginImage" ColumnName="CompanyLoginImage" />
+          <ScalarProperty Name="CompanyLoginImageType" ColumnName="CompanyLoginImageType" />
+          <ScalarProperty Name="CompanyLoginLabelForeColor" ColumnName="CompanyLoginLabelForeColor" />
+          <ScalarProperty Name="EstablishmentDate" ColumnName="EstablishmentDate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="DateModified" ColumnName="DateModified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="VC_FIELD1" ColumnName="VC_FIELD1" />
+          <ScalarProperty Name="VC_FIELD2" ColumnName="VC_FIELD2" />
+          <ScalarProperty Name="NU_FIELD1" ColumnName="NU_FIELD1" />
+          <ScalarProperty Name="NU_FIELD2" ColumnName="NU_FIELD2" />
+          <ScalarProperty Name="DT_FIELD1" ColumnName="DT_FIELD1" />
+          <ScalarProperty Name="DT_FIELD2" ColumnName="DT_FIELD2" />
+          <ScalarProperty Name="CH_FIELD1" ColumnName="CH_FIELD1" />
+          <ScalarProperty Name="CH_FIELD2" ColumnName="CH_FIELD2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ADMN_MST_Users_Officewise">
+      <EntityTypeMapping TypeName="GlobalMindzModel.ADMN_MST_Users_Officewise">
+        <MappingFragment StoreEntitySet="ADMN_MST_Users_Officewise">
+          <ScalarProperty Name="UserOfficewiseID" ColumnName="UserOfficewiseID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="OfficeID" ColumnName="OfficeID" />
+          <ScalarProperty Name="CanAccessAllOffices" ColumnName="CanAccessAllOffices" />
+          <ScalarProperty Name="EffectiveDateFrom" ColumnName="EffectiveDateFrom" />
+          <ScalarProperty Name="EffectiveDateTo" ColumnName="EffectiveDateTo" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="DateModified" ColumnName="DateModified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="VC_FIELD1" ColumnName="VC_FIELD1" />
+          <ScalarProperty Name="VC_FIELD2" ColumnName="VC_FIELD2" />
+          <ScalarProperty Name="NU_FIELD1" ColumnName="NU_FIELD1" />
+          <ScalarProperty Name="NU_FIELD2" ColumnName="NU_FIELD2" />
+          <ScalarProperty Name="DT_FIELD1" ColumnName="DT_FIELD1" />
+          <ScalarProperty Name="DT_FIELD2" ColumnName="DT_FIELD2" />
+          <ScalarProperty Name="CH_FIELD1" ColumnName="CH_FIELD1" />
+          <ScalarProperty Name="CH_FIELD2" ColumnName="CH_FIELD2" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ADMN_MST_UserSettingKeys">
+      <EntityTypeMapping TypeName="GlobalMindzModel.ADMN_MST_UserSettingKeys">
+        <MappingFragment StoreEntitySet="ADMN_MST_UserSettingKeys">
+          <ScalarProperty Name="UserSettingKeyID" ColumnName="UserSettingKeyID" />
+          <ScalarProperty Name="UserSettingKeyName" ColumnName="UserSettingKeyName" />
+          <ScalarProperty Name="UserSettingKeyDescription" ColumnName="UserSettingKeyDescription" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="DateModified" ColumnName="DateModified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="VC_FIELD1" ColumnName="VC_FIELD1" />
+          <ScalarProperty Name="VC_FIELD2" ColumnName="VC_FIELD2" />
+          <ScalarProperty Name="NU_FIELD1" ColumnName="NU_FIELD1" />
+          <ScalarProperty Name="NU_FIELD2" ColumnName="NU_FIELD2" />
+          <ScalarProperty Name="DT_FIELD1" ColumnName="DT_FIELD1" />
+          <ScalarProperty Name="DT_FIELD2" ColumnName="DT_FIELD2" />
+          <ScalarProperty Name="CH_FIELD1" ColumnName="CH_FIELD1" />
+          <ScalarProperty Name="CH_FIELD2" ColumnName="CH_FIELD2" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ADMN_MST_UserSettings">
+      <EntityTypeMapping TypeName="GlobalMindzModel.ADMN_MST_UserSettings">
+        <MappingFragment StoreEntitySet="ADMN_MST_UserSettings">
+          <ScalarProperty Name="UserSettingID" ColumnName="UserSettingID" />
+          <ScalarProperty Name="UserSettingKeyID" ColumnName="UserSettingKeyID" />
+          <ScalarProperty Name="UserSettingValue" ColumnName="UserSettingValue" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="DateModified" ColumnName="DateModified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="VC_FIELD1" ColumnName="VC_FIELD1" />
+          <ScalarProperty Name="VC_FIELD2" ColumnName="VC_FIELD2" />
+          <ScalarProperty Name="NU_FIELD1" ColumnName="NU_FIELD1" />
+          <ScalarProperty Name="NU_FIELD2" ColumnName="NU_FIELD2" />
+          <ScalarProperty Name="DT_FIELD1" ColumnName="DT_FIELD1" />
+          <ScalarProperty Name="DT_FIELD2" ColumnName="DT_FIELD2" />
+          <ScalarProperty Name="CH_FIELD1" ColumnName="CH_FIELD1" />
+          <ScalarProperty Name="CH_FIELD2" ColumnName="CH_FIELD2" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pADM_Users_SelectAllByCompanyID" FunctionName="GlobalMindzModel.Store.pADM_Users_SelectAllByCompanyID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GlobalMindzModel.pADM_Users_SelectAllByCompanyID_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleDescription" ColumnName="RoleDescription" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="Salutation" ColumnName="Salutation" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="DesignationID" ColumnName="DesignationID" />
+          <ScalarProperty Name="DesignationDescription" ColumnName="DesignationDescription" />
+          <ScalarProperty Name="DepartmentID" ColumnName="DepartmentID" />
+          <ScalarProperty Name="DepartmentDescription" ColumnName="DepartmentDescription" />
+          <ScalarProperty Name="OfficeID" ColumnName="OfficeID" />
+          <ScalarProperty Name="OfficeName" ColumnName="OfficeName" />
+          <ScalarProperty Name="Address_TownOrCity" ColumnName="Address_TownOrCity" />
+          <ScalarProperty Name="Address_Landmark" ColumnName="Address_Landmark" />
+          <ScalarProperty Name="Address_DistrictID" ColumnName="Address_DistrictID" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyCode" ColumnName="CompanyCode" />
+          <ScalarProperty Name="IsPasswordChangeDue" ColumnName="IsPasswordChangeDue" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pADM_Users_SelectByLoginCredentials" FunctionName="GlobalMindzModel.Store.pADM_Users_SelectByLoginCredentials">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GlobalMindzModel.pADM_Users_SelectByLoginCredentials_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="UserReferenceID" ColumnName="UserReferenceID" />
+          <ScalarProperty Name="UserReferenceName" ColumnName="UserReferenceName" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="IsPasswordChangeDue" ColumnName="IsPasswordChangeDue" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="DateModified" ColumnName="DateModified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pADM_Users_SelectByLoginName" FunctionName="GlobalMindzModel.Store.pADM_Users_SelectByLoginName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GlobalMindzModel.pADM_Users_SelectByLoginName_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleDescription" ColumnName="RoleDescription" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="UserReferenceID" ColumnName="UserReferenceID" />
+          <ScalarProperty Name="UserReferenceName" ColumnName="UserReferenceName" />
+          <ScalarProperty Name="EMailID" ColumnName="EMailID" />
+          <ScalarProperty Name="OfficeID" ColumnName="OfficeID" />
+          <ScalarProperty Name="OfficeName" ColumnName="OfficeName" />
+          <ScalarProperty Name="OfficeCode" ColumnName="OfficeCode" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyAliasName" ColumnName="CompanyAliasName" />
+          <ScalarProperty Name="CompanyCode" ColumnName="CompanyCode" />
+          <ScalarProperty Name="CompanyLogoSmallSize" ColumnName="CompanyLogoSmallSize" />
+          <ScalarProperty Name="CompanyLogoSmallType" ColumnName="CompanyLogoSmallType" />
+          <ScalarProperty Name="CompanyLogoMediumSize" ColumnName="CompanyLogoMediumSize" />
+          <ScalarProperty Name="CompanyLogoMediumType" ColumnName="CompanyLogoMediumType" />
+          <ScalarProperty Name="CompanyLogoBigSize" ColumnName="CompanyLogoBigSize" />
+          <ScalarProperty Name="CompanyLogoBigType" ColumnName="CompanyLogoBigType" />
+          <ScalarProperty Name="IsPasswordChangeDue" ColumnName="IsPasswordChangeDue" />
+          <ScalarProperty Name="UserPhoto_SmallSize" ColumnName="UserPhoto_SmallSize" />
+          <ScalarProperty Name="UserPhoto_MediumSize" ColumnName="UserPhoto_MediumSize" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pADM_Users_SelectByUserID" FunctionName="GlobalMindzModel.Store.pADM_Users_SelectByUserID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GlobalMindzModel.pADM_Users_SelectByUserID_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleDescription" ColumnName="RoleDescription" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyCode" ColumnName="CompanyCode" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="UserReferenceID" ColumnName="UserReferenceID" />
+          <ScalarProperty Name="UserReferenceName" ColumnName="UserReferenceName" />
+          <ScalarProperty Name="IsPasswordChangeDue" ColumnName="IsPasswordChangeDue" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="DateModified" ColumnName="DateModified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pADM_Users_SelectByUserReferenceID" FunctionName="GlobalMindzModel.Store.pADM_Users_SelectByUserReferenceID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GlobalMindzModel.pADM_Users_SelectByUserReferenceID_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleDescription" ColumnName="RoleDescription" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyCode" ColumnName="CompanyCode" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="UserReferenceID" ColumnName="UserReferenceID" />
+          <ScalarProperty Name="IsPasswordChangeDue" ColumnName="IsPasswordChangeDue" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="DateModified" ColumnName="DateModified" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pADM_Users_SelectDetailsAll" FunctionName="GlobalMindzModel.Store.pADM_Users_SelectDetailsAll">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GlobalMindzModel.pADM_Users_SelectDetailsAll_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleDescription" ColumnName="RoleDescription" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="UserReferenceID" ColumnName="UserReferenceID" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="UserReferenceName" ColumnName="UserReferenceName" />
+          <ScalarProperty Name="OfficeID" ColumnName="OfficeID" />
+          <ScalarProperty Name="OfficeName" ColumnName="OfficeName" />
+          <ScalarProperty Name="OfficeCode" ColumnName="OfficeCode" />
+          <ScalarProperty Name="IsPasswordChangeDue" ColumnName="IsPasswordChangeDue" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyCode" ColumnName="CompanyCode" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pADM_Users_SelectDetailsByLoginName" FunctionName="GlobalMindzModel.Store.pADM_Users_SelectDetailsByLoginName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GlobalMindzModel.pADM_Users_SelectDetailsByLoginName_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleDescription" ColumnName="RoleDescription" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="UserReferenceID" ColumnName="UserReferenceID" />
+          <ScalarProperty Name="UserReferenceName" ColumnName="UserReferenceName" />
+          <ScalarProperty Name="OfficeID" ColumnName="OfficeID" />
+          <ScalarProperty Name="OfficeName" ColumnName="OfficeName" />
+          <ScalarProperty Name="OfficeCode" ColumnName="OfficeCode" />
+          <ScalarProperty Name="IsPasswordChangeDue" ColumnName="IsPasswordChangeDue" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyCode" ColumnName="CompanyCode" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pADM_Users_SelectOfficeDetails" FunctionName="GlobalMindzModel.Store.pADM_Users_SelectOfficeDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GlobalMindzModel.pADM_Users_SelectOfficeDetails_Result">
+          <ScalarProperty Name="Sr" ColumnName="Sr" />
+          <ScalarProperty Name="OfficeID" ColumnName="OfficeID" />
+          <ScalarProperty Name="OfficeName" ColumnName="OfficeName" />
+          <ScalarProperty Name="OfficeCode" ColumnName="OfficeCode" />
+          <ScalarProperty Name="OfficeTypeID" ColumnName="OfficeTypeID" />
+          <ScalarProperty Name="OfficeTypeDescription" ColumnName="OfficeTypeDescription" />
+          <ScalarProperty Name="OfficeTypeAbbreviation" ColumnName="OfficeTypeAbbreviation" />
+          <ScalarProperty Name="EstablishmentDate" ColumnName="EstablishmentDate" />
+          <ScalarProperty Name="ParentOfficeID" ColumnName="ParentOfficeID" />
+          <ScalarProperty Name="ParentOfficeName" ColumnName="ParentOfficeName" />
+          <ScalarProperty Name="ParentOfficeCode" ColumnName="ParentOfficeCode" />
+          <ScalarProperty Name="ManagerEmployeeID" ColumnName="ManagerEmployeeID" />
+          <ScalarProperty Name="ManagerEmployeeName" ColumnName="ManagerEmployeeName" />
+          <ScalarProperty Name="Address_TownOrCity" ColumnName="Address_TownOrCity" />
+          <ScalarProperty Name="Address_Landmark" ColumnName="Address_Landmark" />
+          <ScalarProperty Name="Address_PinCode" ColumnName="Address_PinCode" />
+          <ScalarProperty Name="Address_DistrictID" ColumnName="Address_DistrictID" />
+          <ScalarProperty Name="Address_DistrictName" ColumnName="Address_DistrictName" />
+          <ScalarProperty Name="Address_StateName" ColumnName="Address_StateName" />
+          <ScalarProperty Name="Address_CountryName" ColumnName="Address_CountryName" />
+          <ScalarProperty Name="ContactPerson1" ColumnName="ContactPerson1" />
+          <ScalarProperty Name="ContactPerson2" ColumnName="ContactPerson2" />
+          <ScalarProperty Name="ContactPerson3" ColumnName="ContactPerson3" />
+          <ScalarProperty Name="StdCodePhone" ColumnName="StdCodePhone" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="Phone2" ColumnName="Phone2" />
+          <ScalarProperty Name="Phone3" ColumnName="Phone3" />
+          <ScalarProperty Name="Extension1" ColumnName="Extension1" />
+          <ScalarProperty Name="Extension2" ColumnName="Extension2" />
+          <ScalarProperty Name="Extension3" ColumnName="Extension3" />
+          <ScalarProperty Name="StdCodeFax" ColumnName="StdCodeFax" />
+          <ScalarProperty Name="Fax1" ColumnName="Fax1" />
+          <ScalarProperty Name="Fax2" ColumnName="Fax2" />
+          <ScalarProperty Name="Fax3" ColumnName="Fax3" />
+          <ScalarProperty Name="Mobile1" ColumnName="Mobile1" />
+          <ScalarProperty Name="Mobile2" ColumnName="Mobile2" />
+          <ScalarProperty Name="Mobile3" ColumnName="Mobile3" />
+          <ScalarProperty Name="Email1" ColumnName="Email1" />
+          <ScalarProperty Name="EMail2" ColumnName="EMail2" />
+          <ScalarProperty Name="EMail3" ColumnName="EMail3" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyCode" ColumnName="CompanyCode" />
+          <ScalarProperty Name="IsHavingShift" ColumnName="IsHavingShift" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pADM_Users_Update" FunctionName="GlobalMindzModel.Store.pADM_Users_Update" />
+    <FunctionImportMapping FunctionImportName="pADM_Users_UpdateRole" FunctionName="GlobalMindzModel.Store.pADM_Users_UpdateRole" />
+  </EntityContainerMapping>
+</Mapping>

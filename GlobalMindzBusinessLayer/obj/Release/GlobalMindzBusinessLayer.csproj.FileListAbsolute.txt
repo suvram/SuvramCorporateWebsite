@@ -1,0 +1,30 @@
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Release\GlobalMindzBusinessLayer.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Release\GlobalMindzBusinessLayer.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Release\GlobalMindzDataAccess.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Release\GlobalMindzModel.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Release\Micro.DataAccessLayer.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Release\Micro.Objects.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Release\EntityFramework.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Release\Micro.Commons.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Release\Micro.Security.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Release\GlobalMindzDataAccess.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Release\GlobalMindzModel.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\bin\Release\EntityFramework.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\obj\Release\GlobalMindzBusinessLayer.csprojResolveAssemblyReference.cache
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\obj\Release\GlobalMindzBusinessLayer.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzBusinessLayer\obj\Release\GlobalMindzBusinessLayer.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Release\GlobalMindzBusinessLayer.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Release\GlobalMindzBusinessLayer.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Release\GlobalMindzDataAccess.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Release\GlobalMindzModel.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Release\Micro.DataAccessLayer.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Release\Micro.Objects.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Release\EntityFramework.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Release\Micro.Commons.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Release\Micro.Security.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Release\GlobalMindzDataAccess.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Release\GlobalMindzModel.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\bin\Release\EntityFramework.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\obj\Release\GlobalMindzBusinessLayer.csprojResolveAssemblyReference.cache
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\obj\Release\GlobalMindzBusinessLayer.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzBusinessLayer\obj\Release\GlobalMindzBusinessLayer.pdb

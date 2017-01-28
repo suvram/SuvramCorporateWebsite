@@ -1,0 +1,10 @@
+bg color  dark #3285B0
+
+bg color  light #4ec2c1
+
+title blue #0691cc
+
+suvram green - 00B04C
+tree yello - FFF200
+tree trunk - 007F3E
+

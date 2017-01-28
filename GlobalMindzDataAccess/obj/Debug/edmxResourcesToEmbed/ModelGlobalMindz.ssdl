@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GlobalMindzModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'global_mindz.dbo.ADMN_MST_Companies' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ADMN_MST_Companies">
+    <Key>
+      <PropertyRef Name="CompanyID" />
+    </Key>
+    <Property Name="CompanyID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompanyName" Type="varchar" MaxLength="100" />
+    <Property Name="CompanyAliasName" Type="varchar" MaxLength="100" />
+    <Property Name="CompanyCode" Type="varchar" MaxLength="100" />
+    <Property Name="CompanyMailingName" Type="varchar" MaxLength="100" />
+    <Property Name="CompanyRegisteredOfficeID" Type="int" />
+    <Property Name="CompanyHeadOfficeID" Type="int" />
+    <Property Name="CompanyRegistrationNumber" Type="varchar" MaxLength="100" />
+    <Property Name="CompanyEPFRegistrationNumber" Type="varchar" MaxLength="100" />
+    <Property Name="CompanyLogoBigSize" Type="varbinary(max)" />
+    <Property Name="CompanyLogoBigType" Type="varchar" MaxLength="10" />
+    <Property Name="CompanyLogoMediumSize" Type="varbinary(max)" />
+    <Property Name="CompanyLogoMediumType" Type="varchar" MaxLength="10" />
+    <Property Name="CompanyLogoSmallSize" Type="varbinary(max)" />
+    <Property Name="CompanyLogoSmallType" Type="varchar" MaxLength="10" />
+    <Property Name="CompanyLoginImage" Type="varbinary(max)" />
+    <Property Name="CompanyLoginImageType" Type="varchar" MaxLength="10" />
+    <Property Name="CompanyLoginLabelForeColor" Type="varchar" MaxLength="50" />
+    <Property Name="EstablishmentDate" Type="date" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="IsDeleted" Type="bit" />
+    <Property Name="DateAdded" Type="datetime" />
+    <Property Name="AddedBy" Type="int" />
+    <Property Name="DateModified" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" />
+    <Property Name="VC_FIELD1" Type="varchar" MaxLength="100" />
+    <Property Name="VC_FIELD2" Type="varchar" MaxLength="100" />
+    <Property Name="NU_FIELD1" Type="int" />
+    <Property Name="NU_FIELD2" Type="int" />
+    <Property Name="DT_FIELD1" Type="datetime" />
+    <Property Name="DT_FIELD2" Type="datetime" />
+    <Property Name="CH_FIELD1" Type="char" MaxLength="1" />
+    <Property Name="CH_FIELD2" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="ADMN_MST_Countries">
+    <Key>
+      <PropertyRef Name="CountryID" />
+    </Key>
+    <Property Name="CountryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CountryCode" Type="varchar" MaxLength="10" />
+    <Property Name="CountryName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CapitalName" Type="varchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="IsDeleted" Type="bit" />
+    <Property Name="DateAdded" Type="datetime" />
+    <Property Name="AddedBy" Type="int" />
+    <Property Name="DateModified" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" />
+    <Property Name="VC_FIELD1" Type="varchar" MaxLength="100" />
+    <Property Name="VC_FIELD2" Type="varchar" MaxLength="100" />
+    <Property Name="NU_FIELD1" Type="int" />
+    <Property Name="NU_FIELD2" Type="int" />
+    <Property Name="DT_FIELD1" Type="datetime" />
+    <Property Name="DT_FIELD2" Type="datetime" />
+    <Property Name="CH_FIELD1" Type="char" MaxLength="1" />
+    <Property Name="CH_FIELD2" Type="char" MaxLength="1" />
+    <Property Name="CompanyID" Type="int" />
+  </EntityType>
+  <EntityType Name="ADMN_MST_Districts">
+    <Key>
+      <PropertyRef Name="DistrictID" />
+    </Key>
+    <Property Name="DistrictID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DistrictName" Type="nvarchar" MaxLength="100" />
+    <Property Name="StateID" Type="int" />
+    <Property Name="HeadQuarterName" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="IsDeleted" Type="bit" />
+    <Property Name="DateAdded" Type="datetime" />
+    <Property Name="AddedBy" Type="int" />
+    <Property Name="DateModified" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" />
+    <Property Name="VC_FIELD1" Type="varchar" MaxLength="100" />
+    <Property Name="VC_FIELD2" Type="varchar" MaxLength="100" />
+    <Property Name="NU_FIELD1" Type="int" />
+    <Property Name="NU_FIELD2" Type="int" />
+    <Property Name="DT_FIELD1" Type="datetime" />
+    <Property Name="DT_FIELD2" Type="datetime" />
+    <Property Name="CH_FIELD1" Type="char" MaxLength="1" />
+    <Property Name="CH_FIELD2" Type="char" MaxLength="1" />
+    <Property Name="CompanyID" Type="int" />
+  </EntityType>
+  <EntityType Name="ADMN_MST_States">
+    <Key>
+      <PropertyRef Name="StateID" />
+    </Key>
+    <Property Name="StateID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StateName" Type="nvarchar" MaxLength="50" />
+    <Property Name="StateCapitalName" Type="varchar" MaxLength="50" />
+    <Property Name="CountryID" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="IsDeleted" Type="bit" />
+    <Property Name="DateAdded" Type="datetime" />
+    <Property Name="AddedBy" Type="int" />
+    <Property Name="DateModified" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" />
+    <Property Name="CompanyID" Type="int" />
+  </EntityType>
+  <EntityType Name="ADMN_MST_Users">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="50" />
+    <Property Name="RoleID" Type="int" />
+    <Property Name="UserType" Type="varchar" MaxLength="50" />
+    <Property Name="UserReferenceID" Type="int" />
+    <Property Name="SecretQuestion" Type="varchar" MaxLength="100" />
+    <Property Name="SecretQuestionAnswer" Type="varchar" MaxLength="100" />
+    <Property Name="IsPasswordChangeDue" Type="bit" />
+    <Property Name="IsDeleted" Type="bit" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="DateAdded" Type="datetime" />
+    <Property Name="AddedBy" Type="int" />
+    <Property Name="DateModified" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" />
+    <Property Name="VC_FIELD1" Type="varchar" MaxLength="100" />
+    <Property Name="VC_FIELD2" Type="varchar" MaxLength="100" />
+    <Property Name="NU_FIELD1" Type="int" />
+    <Property Name="NU_FIELD2" Type="int" />
+    <Property Name="DT_FIELD1" Type="datetime" />
+    <Property Name="DT_FIELD2" Type="datetime" />
+    <Property Name="CH_FIELD1" Type="char" MaxLength="1" />
+    <Property Name="CH_FIELD2" Type="char" MaxLength="1" />
+    <Property Name="CompanyID" Type="int" />
+    <Property Name="CompanyCode" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'global_mindz.dbo.ADMN_MST_Users_Officewise' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ADMN_MST_Users_Officewise">
+    <Key>
+      <PropertyRef Name="UserOfficewiseID" />
+    </Key>
+    <Property Name="UserOfficewiseID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="OfficeID" Type="int" />
+    <Property Name="CanAccessAllOffices" Type="bit" />
+    <Property Name="EffectiveDateFrom" Type="date" />
+    <Property Name="EffectiveDateTo" Type="date" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="IsDeleted" Type="bit" />
+    <Property Name="DateAdded" Type="datetime" />
+    <Property Name="AddedBy" Type="int" />
+    <Property Name="DateModified" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" />
+    <Property Name="VC_FIELD1" Type="varchar" MaxLength="100" />
+    <Property Name="VC_FIELD2" Type="varchar" MaxLength="100" />
+    <Property Name="NU_FIELD1" Type="int" />
+    <Property Name="NU_FIELD2" Type="int" />
+    <Property Name="DT_FIELD1" Type="datetime" />
+    <Property Name="DT_FIELD2" Type="datetime" />
+    <Property Name="CH_FIELD1" Type="char" MaxLength="1" />
+    <Property Name="CH_FIELD2" Type="char" MaxLength="1" />
+    <Property Name="CompanyID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'global_mindz.dbo.ADMN_MST_UserSettingKeys' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ADMN_MST_UserSettingKeys">
+    <Key>
+      <PropertyRef Name="UserSettingKeyID" />
+    </Key>
+    <Property Name="UserSettingKeyID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserSettingKeyName" Type="varchar" MaxLength="50" />
+    <Property Name="UserSettingKeyDescription" Type="varchar(max)" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="IsDeleted" Type="bit" />
+    <Property Name="DateAdded" Type="datetime" />
+    <Property Name="AddedBy" Type="int" />
+    <Property Name="DateModified" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" />
+    <Property Name="VC_FIELD1" Type="varchar" MaxLength="100" />
+    <Property Name="VC_FIELD2" Type="varchar" MaxLength="100" />
+    <Property Name="NU_FIELD1" Type="int" />
+    <Property Name="NU_FIELD2" Type="int" />
+    <Property Name="DT_FIELD1" Type="datetime" />
+    <Property Name="DT_FIELD2" Type="datetime" />
+    <Property Name="CH_FIELD1" Type="char" MaxLength="1" />
+    <Property Name="CH_FIELD2" Type="char" MaxLength="1" />
+    <Property Name="CompanyID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'global_mindz.dbo.ADMN_MST_UserSettings' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ADMN_MST_UserSettings">
+    <Key>
+      <PropertyRef Name="UserSettingID" />
+    </Key>
+    <Property Name="UserSettingID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserSettingKeyID" Type="int" />
+    <Property Name="UserSettingValue" Type="varchar(max)" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="IsDelete" Type="bit" />
+    <Property Name="DateAdded" Type="datetime" />
+    <Property Name="AddedBy" Type="int" />
+    <Property Name="DateModified" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" />
+    <Property Name="VC_FIELD1" Type="varchar" MaxLength="100" />
+    <Property Name="VC_FIELD2" Type="varchar" MaxLength="100" />
+    <Property Name="NU_FIELD1" Type="int" />
+    <Property Name="NU_FIELD2" Type="int" />
+    <Property Name="DT_FIELD1" Type="datetime" />
+    <Property Name="DT_FIELD2" Type="datetime" />
+    <Property Name="CH_FIELD1" Type="char" MaxLength="1" />
+    <Property Name="CH_FIELD2" Type="char" MaxLength="1" />
+    <Property Name="CompanyID" Type="int" />
+  </EntityType>
+  <Function Name="pADM_Users_SelectAllByCompanyID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CompanyID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="pADM_Users_SelectByLoginCredentials" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserName" Type="varchar" Mode="In" />
+    <Parameter Name="Password" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="pADM_Users_SelectByLoginName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="LoginName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="pADM_Users_SelectByUserID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="pADM_Users_SelectByUserReferenceID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserReferenceID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="pADM_Users_SelectDetailsAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="pADM_Users_SelectDetailsByLoginName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="LoginName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="pADM_Users_SelectOfficeDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="OfficeId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="pADM_Users_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+    <Parameter Name="NewPassword" Type="varchar" Mode="In" />
+    <Parameter Name="ModifiedBy" Type="int" Mode="In" />
+    <Parameter Name="ReturnValue" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="pADM_Users_UpdateRole" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+    <Parameter Name="RoleID" Type="int" Mode="In" />
+    <Parameter Name="ModifiedBy" Type="int" Mode="In" />
+    <Parameter Name="ReturnValue" Type="int" Mode="InOut" />
+  </Function>
+  <EntityContainer Name="GlobalMindzModelStoreContainer">
+    <EntitySet Name="ADMN_MST_Countries" EntityType="Self.ADMN_MST_Countries" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ADMN_MST_Districts" EntityType="Self.ADMN_MST_Districts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ADMN_MST_States" EntityType="Self.ADMN_MST_States" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ADMN_MST_Users" EntityType="Self.ADMN_MST_Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ADMN_MST_Companies" EntityType="Self.ADMN_MST_Companies" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ADMN_MST_Companies].[CompanyID] AS [CompanyID], 
+    [ADMN_MST_Companies].[CompanyName] AS [CompanyName], 
+    [ADMN_MST_Companies].[CompanyAliasName] AS [CompanyAliasName], 
+    [ADMN_MST_Companies].[CompanyCode] AS [CompanyCode], 
+    [ADMN_MST_Companies].[CompanyMailingName] AS [CompanyMailingName], 
+    [ADMN_MST_Companies].[CompanyRegisteredOfficeID] AS [CompanyRegisteredOfficeID], 
+    [ADMN_MST_Companies].[CompanyHeadOfficeID] AS [CompanyHeadOfficeID], 
+    [ADMN_MST_Companies].[CompanyRegistrationNumber] AS [CompanyRegistrationNumber], 
+    [ADMN_MST_Companies].[CompanyEPFRegistrationNumber] AS [CompanyEPFRegistrationNumber], 
+    [ADMN_MST_Companies].[CompanyLogoBigSize] AS [CompanyLogoBigSize], 
+    [ADMN_MST_Companies].[CompanyLogoBigType] AS [CompanyLogoBigType], 
+    [ADMN_MST_Companies].[CompanyLogoMediumSize] AS [CompanyLogoMediumSize], 
+    [ADMN_MST_Companies].[CompanyLogoMediumType] AS [CompanyLogoMediumType], 
+    [ADMN_MST_Companies].[CompanyLogoSmallSize] AS [CompanyLogoSmallSize], 
+    [ADMN_MST_Companies].[CompanyLogoSmallType] AS [CompanyLogoSmallType], 
+    [ADMN_MST_Companies].[CompanyLoginImage] AS [CompanyLoginImage], 
+    [ADMN_MST_Companies].[CompanyLoginImageType] AS [CompanyLoginImageType], 
+    [ADMN_MST_Companies].[CompanyLoginLabelForeColor] AS [CompanyLoginLabelForeColor], 
+    [ADMN_MST_Companies].[EstablishmentDate] AS [EstablishmentDate], 
+    [ADMN_MST_Companies].[IsActive] AS [IsActive], 
+    [ADMN_MST_Companies].[IsDeleted] AS [IsDeleted], 
+    [ADMN_MST_Companies].[DateAdded] AS [DateAdded], 
+    [ADMN_MST_Companies].[AddedBy] AS [AddedBy], 
+    [ADMN_MST_Companies].[DateModified] AS [DateModified], 
+    [ADMN_MST_Companies].[ModifiedBy] AS [ModifiedBy], 
+    [ADMN_MST_Companies].[VC_FIELD1] AS [VC_FIELD1], 
+    [ADMN_MST_Companies].[VC_FIELD2] AS [VC_FIELD2], 
+    [ADMN_MST_Companies].[NU_FIELD1] AS [NU_FIELD1], 
+    [ADMN_MST_Companies].[NU_FIELD2] AS [NU_FIELD2], 
+    [ADMN_MST_Companies].[DT_FIELD1] AS [DT_FIELD1], 
+    [ADMN_MST_Companies].[DT_FIELD2] AS [DT_FIELD2], 
+    [ADMN_MST_Companies].[CH_FIELD1] AS [CH_FIELD1], 
+    [ADMN_MST_Companies].[CH_FIELD2] AS [CH_FIELD2]
+    FROM [dbo].[ADMN_MST_Companies] AS [ADMN_MST_Companies]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ADMN_MST_Users_Officewise" EntityType="Self.ADMN_MST_Users_Officewise" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ADMN_MST_Users_Officewise].[UserOfficewiseID] AS [UserOfficewiseID], 
+    [ADMN_MST_Users_Officewise].[UserID] AS [UserID], 
+    [ADMN_MST_Users_Officewise].[OfficeID] AS [OfficeID], 
+    [ADMN_MST_Users_Officewise].[CanAccessAllOffices] AS [CanAccessAllOffices], 
+    [ADMN_MST_Users_Officewise].[EffectiveDateFrom] AS [EffectiveDateFrom], 
+    [ADMN_MST_Users_Officewise].[EffectiveDateTo] AS [EffectiveDateTo], 
+    [ADMN_MST_Users_Officewise].[IsActive] AS [IsActive], 
+    [ADMN_MST_Users_Officewise].[IsDeleted] AS [IsDeleted], 
+    [ADMN_MST_Users_Officewise].[DateAdded] AS [DateAdded], 
+    [ADMN_MST_Users_Officewise].[AddedBy] AS [AddedBy], 
+    [ADMN_MST_Users_Officewise].[DateModified] AS [DateModified], 
+    [ADMN_MST_Users_Officewise].[ModifiedBy] AS [ModifiedBy], 
+    [ADMN_MST_Users_Officewise].[VC_FIELD1] AS [VC_FIELD1], 
+    [ADMN_MST_Users_Officewise].[VC_FIELD2] AS [VC_FIELD2], 
+    [ADMN_MST_Users_Officewise].[NU_FIELD1] AS [NU_FIELD1], 
+    [ADMN_MST_Users_Officewise].[NU_FIELD2] AS [NU_FIELD2], 
+    [ADMN_MST_Users_Officewise].[DT_FIELD1] AS [DT_FIELD1], 
+    [ADMN_MST_Users_Officewise].[DT_FIELD2] AS [DT_FIELD2], 
+    [ADMN_MST_Users_Officewise].[CH_FIELD1] AS [CH_FIELD1], 
+    [ADMN_MST_Users_Officewise].[CH_FIELD2] AS [CH_FIELD2], 
+    [ADMN_MST_Users_Officewise].[CompanyID] AS [CompanyID]
+    FROM [dbo].[ADMN_MST_Users_Officewise] AS [ADMN_MST_Users_Officewise]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ADMN_MST_UserSettingKeys" EntityType="Self.ADMN_MST_UserSettingKeys" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ADMN_MST_UserSettingKeys].[UserSettingKeyID] AS [UserSettingKeyID], 
+    [ADMN_MST_UserSettingKeys].[UserSettingKeyName] AS [UserSettingKeyName], 
+    [ADMN_MST_UserSettingKeys].[UserSettingKeyDescription] AS [UserSettingKeyDescription], 
+    [ADMN_MST_UserSettingKeys].[IsActive] AS [IsActive], 
+    [ADMN_MST_UserSettingKeys].[IsDeleted] AS [IsDeleted], 
+    [ADMN_MST_UserSettingKeys].[DateAdded] AS [DateAdded], 
+    [ADMN_MST_UserSettingKeys].[AddedBy] AS [AddedBy], 
+    [ADMN_MST_UserSettingKeys].[DateModified] AS [DateModified], 
+    [ADMN_MST_UserSettingKeys].[ModifiedBy] AS [ModifiedBy], 
+    [ADMN_MST_UserSettingKeys].[VC_FIELD1] AS [VC_FIELD1], 
+    [ADMN_MST_UserSettingKeys].[VC_FIELD2] AS [VC_FIELD2], 
+    [ADMN_MST_UserSettingKeys].[NU_FIELD1] AS [NU_FIELD1], 
+    [ADMN_MST_UserSettingKeys].[NU_FIELD2] AS [NU_FIELD2], 
+    [ADMN_MST_UserSettingKeys].[DT_FIELD1] AS [DT_FIELD1], 
+    [ADMN_MST_UserSettingKeys].[DT_FIELD2] AS [DT_FIELD2], 
+    [ADMN_MST_UserSettingKeys].[CH_FIELD1] AS [CH_FIELD1], 
+    [ADMN_MST_UserSettingKeys].[CH_FIELD2] AS [CH_FIELD2], 
+    [ADMN_MST_UserSettingKeys].[CompanyID] AS [CompanyID]
+    FROM [dbo].[ADMN_MST_UserSettingKeys] AS [ADMN_MST_UserSettingKeys]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ADMN_MST_UserSettings" EntityType="Self.ADMN_MST_UserSettings" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ADMN_MST_UserSettings].[UserSettingID] AS [UserSettingID], 
+    [ADMN_MST_UserSettings].[UserSettingKeyID] AS [UserSettingKeyID], 
+    [ADMN_MST_UserSettings].[UserSettingValue] AS [UserSettingValue], 
+    [ADMN_MST_UserSettings].[UserID] AS [UserID], 
+    [ADMN_MST_UserSettings].[IsActive] AS [IsActive], 
+    [ADMN_MST_UserSettings].[IsDelete] AS [IsDelete], 
+    [ADMN_MST_UserSettings].[DateAdded] AS [DateAdded], 
+    [ADMN_MST_UserSettings].[AddedBy] AS [AddedBy], 
+    [ADMN_MST_UserSettings].[DateModified] AS [DateModified], 
+    [ADMN_MST_UserSettings].[ModifiedBy] AS [ModifiedBy], 
+    [ADMN_MST_UserSettings].[VC_FIELD1] AS [VC_FIELD1], 
+    [ADMN_MST_UserSettings].[VC_FIELD2] AS [VC_FIELD2], 
+    [ADMN_MST_UserSettings].[NU_FIELD1] AS [NU_FIELD1], 
+    [ADMN_MST_UserSettings].[NU_FIELD2] AS [NU_FIELD2], 
+    [ADMN_MST_UserSettings].[DT_FIELD1] AS [DT_FIELD1], 
+    [ADMN_MST_UserSettings].[DT_FIELD2] AS [DT_FIELD2], 
+    [ADMN_MST_UserSettings].[CH_FIELD1] AS [CH_FIELD1], 
+    [ADMN_MST_UserSettings].[CH_FIELD2] AS [CH_FIELD2], 
+    [ADMN_MST_UserSettings].[CompanyID] AS [CompanyID]
+    FROM [dbo].[ADMN_MST_UserSettings] AS [ADMN_MST_UserSettings]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

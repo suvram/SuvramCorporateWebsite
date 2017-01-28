@@ -1,0 +1,104 @@
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\GlobalMindzWebApp.dll.config
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\GlobalMindzWebApp.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\GlobalMindzWebApp.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\AjaxControlToolkit.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\Antlr3.Runtime.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\AspNet.ScriptManager.jQuery.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\EntityFramework.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\EntityFramework.SqlServer.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\GlobalMindzBusinessLayer.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\GlobalMindzModel.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\Micro.Objects.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\Micro.Security.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\Newtonsoft.Json.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Net.Http.Formatting.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Helpers.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Http.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Http.WebHost.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Mvc.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Optimization.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Razor.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Webpages.Deployment.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Webpages.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Webpages.Razor.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\WebGrease.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\GlobalMindzDataAccess.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\GlobalMindzBusinessLayer.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\GlobalMindzModel.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\EntityFramework.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\EntityFramework.SqlServer.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Optimization.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\Antlr3.Runtime.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\Newtonsoft.Json.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Razor.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Webpages.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Webpages.Deployment.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Webpages.Razor.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Helpers.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Mvc.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Net.Http.Formatting.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Http.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\System.Web.Http.WebHost.xml
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\bin\GlobalMindzDataAccess.pdb
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\obj\Release\GlobalMindzWebApp.csprojResolveAssemblyReference.cache
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\obj\Release\GlobalMindzWebApp.dll
+D:\Kishor\GlobalMindzWebApp\GlobalMindzWebApp\obj\Release\GlobalMindzWebApp.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\GlobalMindzWebApp.dll.config
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\GlobalMindzWebApp.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\GlobalMindzWebApp.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\AjaxControlToolkit.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\Antlr3.Runtime.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\AspNet.ScriptManager.bootstrap.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\AspNet.ScriptManager.jQuery.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\EntityFramework.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\EntityFramework.SqlServer.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\GlobalMindzBusinessLayer.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\GlobalMindzModel.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\Micro.Objects.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\Micro.Security.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\Microsoft.ScriptManager.WebForms.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\Newtonsoft.Json.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Net.Http.Formatting.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Helpers.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Http.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Http.WebHost.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Mvc.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Optimization.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Razor.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Webpages.Deployment.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Webpages.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Webpages.Razor.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\WebGrease.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\GlobalMindzDataAccess.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\GlobalMindzBusinessLayer.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\GlobalMindzModel.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\EntityFramework.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\EntityFramework.SqlServer.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Optimization.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\Antlr3.Runtime.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\Newtonsoft.Json.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Razor.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Webpages.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Webpages.Deployment.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Webpages.Razor.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Helpers.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Mvc.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Net.Http.Formatting.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Http.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\System.Web.Http.WebHost.xml
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\bin\GlobalMindzDataAccess.pdb
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\obj\Release\GlobalMindzWebApp.csprojResolveAssemblyReference.cache
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\obj\Release\GlobalMindzWebApp.dll
+E:\GlobalMindzWebApp - Suvram\GlobalMindzWebApp\obj\Release\GlobalMindzWebApp.pdb

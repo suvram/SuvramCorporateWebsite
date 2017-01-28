@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="GlobalMindzEntities-Web.config Connection String" description="GlobalMindzEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/ModelGlobalMindz.csdl|res://*/ModelGlobalMindz.ssdl|res://*/ModelGlobalMindz.msl;provider=System.Data.SqlClient;provider connection string=&quot; data source=198.71.225.113; initial catalog=global_mindz; user id=global_mindz;password=global_mindz@1234;  MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\GlobalMindzWebApp\ -\ Suvram\\GlobalMindzWebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='GlobalMindzEntities']/@connectionString" />
+  </parameter>
+  <parameter name="GlobalMindzConnStr-Web.config Connection String" description="GlobalMindzConnStr Connection String used in web.config by the application to access the database." defaultValue="Data Source=198.71.225.113; Initial Catalog=global_mindz; User ID=global_mindz; Password=global_mindz@1234;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\GlobalMindzWebApp\ -\ Suvram\\GlobalMindzWebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='GlobalMindzConnStr']/@connectionString" />
+  </parameter>
+</parameters>

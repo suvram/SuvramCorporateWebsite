@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GlobalMindzModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ADMN_MST_Countries">
+    <Key>
+      <PropertyRef Name="CountryID" />
+    </Key>
+    <Property Name="CountryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CountryCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CountryName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CapitalName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="IsDeleted" Type="Boolean" />
+    <Property Name="DateAdded" Type="DateTime" Precision="3" />
+    <Property Name="AddedBy" Type="Int32" />
+    <Property Name="DateModified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" />
+    <Property Name="VC_FIELD1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="VC_FIELD2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NU_FIELD1" Type="Int32" />
+    <Property Name="NU_FIELD2" Type="Int32" />
+    <Property Name="DT_FIELD1" Type="DateTime" Precision="3" />
+    <Property Name="DT_FIELD2" Type="DateTime" Precision="3" />
+    <Property Name="CH_FIELD1" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="CH_FIELD2" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="CompanyID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ADMN_MST_Districts">
+    <Key>
+      <PropertyRef Name="DistrictID" />
+    </Key>
+    <Property Name="DistrictID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DistrictName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="StateID" Type="Int32" />
+    <Property Name="HeadQuarterName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="IsDeleted" Type="Boolean" />
+    <Property Name="DateAdded" Type="DateTime" Precision="3" />
+    <Property Name="AddedBy" Type="Int32" />
+    <Property Name="DateModified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" />
+    <Property Name="VC_FIELD1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="VC_FIELD2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NU_FIELD1" Type="Int32" />
+    <Property Name="NU_FIELD2" Type="Int32" />
+    <Property Name="DT_FIELD1" Type="DateTime" Precision="3" />
+    <Property Name="DT_FIELD2" Type="DateTime" Precision="3" />
+    <Property Name="CH_FIELD1" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="CH_FIELD2" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="CompanyID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ADMN_MST_States">
+    <Key>
+      <PropertyRef Name="StateID" />
+    </Key>
+    <Property Name="StateID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StateName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StateCapitalName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CountryID" Type="Int32" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="IsDeleted" Type="Boolean" />
+    <Property Name="DateAdded" Type="DateTime" Precision="3" />
+    <Property Name="AddedBy" Type="Int32" />
+    <Property Name="DateModified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" />
+    <Property Name="CompanyID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ADMN_MST_Users">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RoleID" Type="Int32" />
+    <Property Name="UserType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UserReferenceID" Type="Int32" />
+    <Property Name="SecretQuestion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="SecretQuestionAnswer" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="IsPasswordChangeDue" Type="Boolean" />
+    <Property Name="IsDeleted" Type="Boolean" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="DateAdded" Type="DateTime" Precision="3" />
+    <Property Name="AddedBy" Type="Int32" />
+    <Property Name="DateModified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" />
+    <Property Name="VC_FIELD1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="VC_FIELD2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NU_FIELD1" Type="Int32" />
+    <Property Name="NU_FIELD2" Type="Int32" />
+    <Property Name="DT_FIELD1" Type="DateTime" Precision="3" />
+    <Property Name="DT_FIELD2" Type="DateTime" Precision="3" />
+    <Property Name="CH_FIELD1" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="CH_FIELD2" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="CompanyID" Type="Int32" />
+    <Property Name="CompanyCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ADMN_MST_Companies">
+    <Key>
+      <PropertyRef Name="CompanyID" />
+    </Key>
+    <Property Name="CompanyID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyAliasName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyCode" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyMailingName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyRegisteredOfficeID" Type="Int32" />
+    <Property Name="CompanyHeadOfficeID" Type="Int32" />
+    <Property Name="CompanyRegistrationNumber" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyEPFRegistrationNumber" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyLogoBigSize" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="CompanyLogoBigType" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyLogoMediumSize" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="CompanyLogoMediumType" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyLogoSmallSize" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="CompanyLogoSmallType" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyLoginImage" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="CompanyLoginImageType" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyLoginLabelForeColor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EstablishmentDate" Type="DateTime" Precision="0" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="IsDeleted" Type="Boolean" />
+    <Property Name="DateAdded" Type="DateTime" Precision="3" />
+    <Property Name="AddedBy" Type="Int32" />
+    <Property Name="DateModified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" />
+    <Property Name="VC_FIELD1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="VC_FIELD2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NU_FIELD1" Type="Int32" />
+    <Property Name="NU_FIELD2" Type="Int32" />
+    <Property Name="DT_FIELD1" Type="DateTime" Precision="3" />
+    <Property Name="DT_FIELD2" Type="DateTime" Precision="3" />
+    <Property Name="CH_FIELD1" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="CH_FIELD2" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ADMN_MST_Users_Officewise">
+    <Key>
+      <PropertyRef Name="UserOfficewiseID" />
+    </Key>
+    <Property Name="UserOfficewiseID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="OfficeID" Type="Int32" />
+    <Property Name="CanAccessAllOffices" Type="Boolean" />
+    <Property Name="EffectiveDateFrom" Type="DateTime" Precision="0" />
+    <Property Name="EffectiveDateTo" Type="DateTime" Precision="0" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="IsDeleted" Type="Boolean" />
+    <Property Name="DateAdded" Type="DateTime" Precision="3" />
+    <Property Name="AddedBy" Type="Int32" />
+    <Property Name="DateModified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" />
+    <Property Name="VC_FIELD1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="VC_FIELD2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NU_FIELD1" Type="Int32" />
+    <Property Name="NU_FIELD2" Type="Int32" />
+    <Property Name="DT_FIELD1" Type="DateTime" Precision="3" />
+    <Property Name="DT_FIELD2" Type="DateTime" Precision="3" />
+    <Property Name="CH_FIELD1" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="CH_FIELD2" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="CompanyID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ADMN_MST_UserSettingKeys">
+    <Key>
+      <PropertyRef Name="UserSettingKeyID" />
+    </Key>
+    <Property Name="UserSettingKeyID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserSettingKeyName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UserSettingKeyDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="IsDeleted" Type="Boolean" />
+    <Property Name="DateAdded" Type="DateTime" Precision="3" />
+    <Property Name="AddedBy" Type="Int32" />
+    <Property Name="DateModified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" />
+    <Property Name="VC_FIELD1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="VC_FIELD2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NU_FIELD1" Type="Int32" />
+    <Property Name="NU_FIELD2" Type="Int32" />
+    <Property Name="DT_FIELD1" Type="DateTime" Precision="3" />
+    <Property Name="DT_FIELD2" Type="DateTime" Precision="3" />
+    <Property Name="CH_FIELD1" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="CH_FIELD2" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="CompanyID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ADMN_MST_UserSettings">
+    <Key>
+      <PropertyRef Name="UserSettingID" />
+    </Key>
+    <Property Name="UserSettingID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserSettingKeyID" Type="Int32" />
+    <Property Name="UserSettingValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="IsDelete" Type="Boolean" />
+    <Property Name="DateAdded" Type="DateTime" Precision="3" />
+    <Property Name="AddedBy" Type="Int32" />
+    <Property Name="DateModified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" />
+    <Property Name="VC_FIELD1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="VC_FIELD2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NU_FIELD1" Type="Int32" />
+    <Property Name="NU_FIELD2" Type="Int32" />
+    <Property Name="DT_FIELD1" Type="DateTime" Precision="3" />
+    <Property Name="DT_FIELD2" Type="DateTime" Precision="3" />
+    <Property Name="CH_FIELD1" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="CH_FIELD2" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="CompanyID" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="GlobalMindzEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ADMN_MST_Countries" EntityType="Self.ADMN_MST_Countries" />
+    <EntitySet Name="ADMN_MST_Districts" EntityType="Self.ADMN_MST_Districts" />
+    <EntitySet Name="ADMN_MST_States" EntityType="Self.ADMN_MST_States" />
+    <EntitySet Name="ADMN_MST_Users" EntityType="Self.ADMN_MST_Users" />
+    <EntitySet Name="ADMN_MST_Companies" EntityType="Self.ADMN_MST_Companies" />
+    <EntitySet Name="ADMN_MST_Users_Officewise" EntityType="Self.ADMN_MST_Users_Officewise" />
+    <EntitySet Name="ADMN_MST_UserSettingKeys" EntityType="Self.ADMN_MST_UserSettingKeys" />
+    <EntitySet Name="ADMN_MST_UserSettings" EntityType="Self.ADMN_MST_UserSettings" />
+    <FunctionImport Name="pADM_Users_SelectAllByCompanyID" ReturnType="Collection(GlobalMindzModel.pADM_Users_SelectAllByCompanyID_Result)">
+      <Parameter Name="CompanyID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="pADM_Users_SelectByLoginCredentials" ReturnType="Collection(GlobalMindzModel.pADM_Users_SelectByLoginCredentials_Result)">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="pADM_Users_SelectByLoginName" ReturnType="Collection(GlobalMindzModel.pADM_Users_SelectByLoginName_Result)">
+      <Parameter Name="LoginName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="pADM_Users_SelectByUserID" ReturnType="Collection(GlobalMindzModel.pADM_Users_SelectByUserID_Result)">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="pADM_Users_SelectByUserReferenceID" ReturnType="Collection(GlobalMindzModel.pADM_Users_SelectByUserReferenceID_Result)">
+      <Parameter Name="UserReferenceID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="pADM_Users_SelectDetailsAll" ReturnType="Collection(GlobalMindzModel.pADM_Users_SelectDetailsAll_Result)" />
+    <FunctionImport Name="pADM_Users_SelectDetailsByLoginName" ReturnType="Collection(GlobalMindzModel.pADM_Users_SelectDetailsByLoginName_Result)">
+      <Parameter Name="LoginName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="pADM_Users_SelectOfficeDetails" ReturnType="Collection(GlobalMindzModel.pADM_Users_SelectOfficeDetails_Result)">
+      <Parameter Name="OfficeId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="pADM_Users_Update">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="NewPassword" Mode="In" Type="String" />
+      <Parameter Name="ModifiedBy" Mode="In" Type="Int32" />
+      <Parameter Name="ReturnValue" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="pADM_Users_UpdateRole">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="RoleID" Mode="In" Type="Int32" />
+      <Parameter Name="ModifiedBy" Mode="In" Type="Int32" />
+      <Parameter Name="ReturnValue" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="pADM_Users_SelectAllByCompanyID_Result">
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="RoleID" Nullable="true" />
+    <Property Type="String" Name="RoleDescription" Nullable="true" MaxLength="30" />
+    <Property Type="Int32" Name="EmployeeID" Nullable="true" />
+    <Property Type="String" Name="Salutation" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="EmployeeName" Nullable="true" MaxLength="200" />
+    <Property Type="DateTime" Name="DateOfBirth" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="DesignationID" Nullable="true" />
+    <Property Type="String" Name="DesignationDescription" Nullable="true" MaxLength="30" />
+    <Property Type="Int32" Name="DepartmentID" Nullable="true" />
+    <Property Type="String" Name="DepartmentDescription" Nullable="true" MaxLength="100" />
+    <Property Type="Int32" Name="OfficeID" Nullable="true" />
+    <Property Type="String" Name="OfficeName" Nullable="true" MaxLength="103" />
+    <Property Type="String" Name="Address_TownOrCity" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Address_Landmark" Nullable="true" MaxLength="100" />
+    <Property Type="Int32" Name="Address_DistrictID" Nullable="true" />
+    <Property Type="String" Name="DistrictName" Nullable="true" MaxLength="100" />
+    <Property Type="Int32" Name="CompanyID" Nullable="false" />
+    <Property Type="String" Name="CompanyName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="CompanyCode" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="IsPasswordChangeDue" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="pADM_Users_SelectByLoginCredentials_Result">
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="CompanyID" Nullable="true" />
+    <Property Type="String" Name="CompanyName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="UserType" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="UserReferenceID" Nullable="true" />
+    <Property Type="String" Name="UserReferenceName" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="RoleID" Nullable="true" />
+    <Property Type="Boolean" Name="IsPasswordChangeDue" Nullable="true" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="true" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="DateAdded" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="AddedBy" Nullable="true" />
+    <Property Type="DateTime" Name="DateModified" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="ModifiedBy" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="pADM_Users_SelectByUserID_Result">
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="RoleID" Nullable="true" />
+    <Property Type="String" Name="RoleDescription" Nullable="true" MaxLength="30" />
+    <Property Type="Int32" Name="CompanyID" Nullable="false" />
+    <Property Type="String" Name="CompanyName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="CompanyCode" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="UserType" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="UserReferenceID" Nullable="true" />
+    <Property Type="String" Name="UserReferenceName" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="IsPasswordChangeDue" Nullable="true" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="true" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="DateAdded" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="AddedBy" Nullable="true" />
+    <Property Type="DateTime" Name="DateModified" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="ModifiedBy" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="pADM_Users_SelectByUserReferenceID_Result">
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="RoleID" Nullable="true" />
+    <Property Type="String" Name="RoleDescription" Nullable="true" MaxLength="30" />
+    <Property Type="Int32" Name="CompanyID" Nullable="false" />
+    <Property Type="String" Name="CompanyName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="CompanyCode" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="UserType" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="UserReferenceID" Nullable="true" />
+    <Property Type="Boolean" Name="IsPasswordChangeDue" Nullable="true" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="true" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="DateAdded" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="AddedBy" Nullable="true" />
+    <Property Type="DateTime" Name="DateModified" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="ModifiedBy" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="pADM_Users_SelectDetailsAll_Result">
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="RoleID" Nullable="true" />
+    <Property Type="String" Name="RoleDescription" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="UserType" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="UserReferenceID" Nullable="true" />
+    <Property Type="String" Name="EmailID" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="UserReferenceName" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="OfficeID" Nullable="true" />
+    <Property Type="String" Name="OfficeName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="OfficeCode" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="IsPasswordChangeDue" Nullable="true" />
+    <Property Type="Int32" Name="CompanyID" Nullable="false" />
+    <Property Type="String" Name="CompanyName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="CompanyCode" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="pADM_Users_SelectDetailsByLoginName_Result">
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="RoleID" Nullable="true" />
+    <Property Type="String" Name="RoleDescription" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="UserType" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="UserReferenceID" Nullable="true" />
+    <Property Type="String" Name="UserReferenceName" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="OfficeID" Nullable="true" />
+    <Property Type="String" Name="OfficeName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="OfficeCode" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="IsPasswordChangeDue" Nullable="true" />
+    <Property Type="Int32" Name="CompanyID" Nullable="false" />
+    <Property Type="String" Name="CompanyName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="CompanyCode" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="pADM_Users_SelectOfficeDetails_Result">
+    <Property Type="Int32" Name="Sr" Nullable="false" />
+    <Property Type="Int32" Name="OfficeID" Nullable="true" />
+    <Property Type="String" Name="OfficeName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="OfficeCode" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="OfficeTypeID" Nullable="true" />
+    <Property Type="String" Name="OfficeTypeDescription" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="OfficeTypeAbbreviation" Nullable="true" MaxLength="10" />
+    <Property Type="DateTime" Name="EstablishmentDate" Nullable="true" />
+    <Property Type="Int32" Name="ParentOfficeID" Nullable="true" />
+    <Property Type="String" Name="ParentOfficeName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="ParentOfficeCode" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="ManagerEmployeeID" Nullable="true" />
+    <Property Type="String" Name="ManagerEmployeeName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Address_TownOrCity" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Address_Landmark" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Address_PinCode" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="Address_DistrictID" Nullable="true" />
+    <Property Type="String" Name="Address_DistrictName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Address_StateName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Address_CountryName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="ContactPerson1" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ContactPerson2" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ContactPerson3" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="StdCodePhone" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Phone1" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Phone2" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Phone3" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Extension1" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Extension2" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Extension3" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="StdCodeFax" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Fax1" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Fax2" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Fax3" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Mobile1" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Mobile2" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Mobile3" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Email1" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="EMail2" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="EMail3" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="CompanyID" Nullable="true" />
+    <Property Type="String" Name="CompanyName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="CompanyCode" Nullable="true" MaxLength="10" />
+    <Property Type="Boolean" Name="IsHavingShift" Nullable="true" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="Boolean" Name="IsDeleted" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="pADM_Users_SelectByLoginName_Result">
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="RoleID" Nullable="true" />
+    <Property Type="String" Name="RoleDescription" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="UserType" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="UserReferenceID" Nullable="true" />
+    <Property Type="String" Name="UserReferenceName" Nullable="true" MaxLength="211" />
+    <Property Type="String" Name="EMailID" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="OfficeID" Nullable="true" />
+    <Property Type="String" Name="OfficeName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="OfficeCode" Nullable="true" MaxLength="100" />
+    <Property Type="Int32" Name="CompanyID" Nullable="false" />
+    <Property Type="String" Name="CompanyName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="CompanyAliasName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="CompanyCode" Nullable="true" MaxLength="100" />
+    <Property Type="Binary" Name="CompanyLogoSmallSize" Nullable="true" />
+    <Property Type="String" Name="CompanyLogoSmallType" Nullable="true" MaxLength="10" />
+    <Property Type="Binary" Name="CompanyLogoMediumSize" Nullable="true" />
+    <Property Type="String" Name="CompanyLogoMediumType" Nullable="true" MaxLength="10" />
+    <Property Type="Binary" Name="CompanyLogoBigSize" Nullable="true" />
+    <Property Type="String" Name="CompanyLogoBigType" Nullable="true" MaxLength="10" />
+    <Property Type="Boolean" Name="IsPasswordChangeDue" Nullable="true" />
+    <Property Type="String" Name="UserPhoto_SmallSize" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="UserPhoto_MediumSize" Nullable="true" MaxLength="100" />
+  </ComplexType>
+</Schema>
